@@ -167,6 +167,7 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://theses.hal.science/tel-03952711v1/document" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
             <a href="/assets/pdf/Defence_09-12-22.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
           </div>
@@ -174,7 +175,10 @@
           <div class="badges">
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This work aims to establish which theoretical properties of classical linear algebra techniques, developed in two different contexts, namely numerical linear algebra and data analysis, are maintained and which are lost when extended to low-rank tensors. In the numerical linear algebra part, we experimentally study the effects of rounding errors on an iterative solver (Generalised Minimal RESidual) and several orthogonalization methods (Classical and Modified Gram-Schmidt and Householder transformation, among others) when extended to tensors by the Tensor Train (TT) formalism. In all the considered algorithms, we introduce additional rounding steps, with the TT-rounding compression algorithm, to cope with memory constraints, which are always crucial when dealing with tensors. Our experimental tests suggest that for these algorithms, the classical bounds due to the propagation of rounding errors remain valid, replacing the accuracy of the arithmetic with that of the TT-rounding algorithm. In the data analysis part, we geometrically study the generalization of correspondence analysis to multi-way tables by the Tucker tensor decomposition technique, thus contributing to the understanding of Multi-Way Correspondence Analysis (MWCA). Examples of MWCA applied to datasets complement the theoretical results. In particular, we perform the MWCA on an original ecological dataset provided to us in the framework of the Malabar project of the BioGeCo (INRAE) and Pleiade (Inria) teams.</p>
+          </div>
         </div>
       </div>
 </li></ol>
